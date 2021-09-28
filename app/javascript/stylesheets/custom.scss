@@ -1,25 +1,25 @@
 h1, h2 {
     font-weight: 100;
-}
-
-.text-white {
+  }
+  
+  .text-white {
     color: #fff;
-}
-
-.btn-white {
+  }
+  
+  .btn-white {
     color: #fff;
     border: 1px solid #fff;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 20px;
     background-color: rgba(0,0,0,0.0);
-
+  
     &:hover {
-        color: #fff;
+      color: #fff;
     }
-}
-
-.top-hero-wrapper {
+  }
+  
+  .top-hero-wrapper {
     width: 100vw;
     height: 100vh;
     background-image: image-url('bg-top.png');
@@ -28,19 +28,17 @@ h1, h2 {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
-}
-
-.top-hero-container {
+  }
+  
+  .top-hero-container {
     padding-top: 220px;
     h1 {
-        font-size: 56px;
-        margin-bottom: 20px;
+      font-size: 56px;
+      margin-bottom: 20px;
     }
-
-
+  
     h2 {
-        margin-bottom: 60px;
+      margin-bottom: 60px;
     }
-}
-
-
+  }
+  
