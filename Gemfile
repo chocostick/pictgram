@@ -61,6 +61,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.5.0'
 gem 'jquery-rails'   
 gem 'bcrypt'
+gem "carrierwave"
+gem 'mini_magick'
 
 group :development do
   gem 'pry-byebug'

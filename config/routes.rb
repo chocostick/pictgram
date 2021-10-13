@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'topics/new'
   get 'sessions/new'
 
   get 'pages/index' 
@@ -7,6 +8,7 @@ Rails.application.routes.draw do
   get 'pages/link'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   resources :users
+  resources :topics
 
   get    '/login',   to: 'sessions#new'
   post   '/login',   to: 'sessions#create'
