@@ -20,4 +20,7 @@ class ApplicationController < ActionController::Base
   def index
    
   end
+
+  helper_method :current_user, :logged_in?
+  
 end
