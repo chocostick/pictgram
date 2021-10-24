@@ -13,14 +13,6 @@ class ApplicationController < ActionController::Base
     !current_user.nil?
   end
 
-  def new
-    
-  end
 
-  def index
-   
-  end
-
-  helper_method :current_user, :logged_in?
   
 end
