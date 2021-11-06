@@ -14,6 +14,7 @@ RUN apt-get update -qq && apt-get install -y \
 WORKDIR /myapp
 COPY Gemfile /myapp/Gemfile
 COPY Gemfile.lock /myapp/Gemfile.lock
+COPY ./ ./
 RUN bundle install
 RUN yarn install
 # Add a script to be executed every time the container starts.

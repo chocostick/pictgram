@@ -11,6 +11,7 @@ class CommentsController < ApplicationController
     end
 
     def create
+        @topic = Topic.find(params[:topic_id])
         @comment = Comment.new(comment_params)
 
         if @comment.save
